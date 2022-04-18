@@ -8,7 +8,7 @@
 >Tener en cuenta que el autor lleva años programando en C#
 
 - Dentro de 50, 100 o 300 años a ver quien es el "tio listo" que mantiene angularJS. Puede que haya una menor población, menos programadores, mas guerras por recursos. Lo último que necesitan es un lenguaje de programación complicado y que fue cambiando de sintaxis cada 3 meses.
-- Evitar cansar al programador poniendo teclas combinadas para escribir el lenguaje. Disminuir uso de:
+- Evitar cansar las manos del programador poniendo teclas combinadas para escribir el lenguaje. Disminuir uso de:
   - Mayusculas
   - puntos y coma
   - Parentesis, interrogaciones, igual, menor/mayor que,...
@@ -16,6 +16,7 @@
 - Maximo 150 caracteres por linea para evitar lineas "de aquí al rio" como en C#  
 - Sólo existen **string** y **number**
 - Los **number** deben de poderse declarar y tener mayor precisión que en COBOL
+- Se inspira de los lenguajes C#, COBOL, python, T-SQL
 
 -----------------
 Imagen de una posible sintaxis inicial
