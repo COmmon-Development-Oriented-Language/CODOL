@@ -1,0 +1,86 @@
+use 'base'.
+
+in-namespace myApp. /*cuando es un namespace por fichero se puede poner en una linea, si es por clase se añade el in-namespace al final
+                        del begin-public-class
+                    */
+begin-public-class program
+	begin-function number calculo with number a, number b
+		return a + b.
+	end-function
+
+    /*
+        begin-function para metodos que devuelven datos
+        begin-method para metodos void
+        tabulado como python
+        maximo 150 caracteres por linea
+    */
+	
+    begin-function string retorna-dato with string texto, number numero
+        return texto..numero..' '.
+    end-function
+
+    /***
+        *
+        */
+    begin-public-method main with string-array args
+        begin-try
+            number numero size 3 default zeros.
+            console.write-line 'Hola mundo!'.
+            set numero with console.read-line.
+            console.write-line retorna-dato with 'el numero puesto es:', numero.
+
+            if numero lt 3 begin
+                //less that
+            elif numero eq 3 begin
+                //equals
+            elif numero gt 3 begin
+                //greater that
+            else
+
+            end-if
+
+            if numero lteq 3 begin
+                //less than or equals to
+            elif numero gteq 3 begin
+                //greater that or equals to ...
+            end-if
+	    
+			for-each numero in range 0 to 12 begin
+				//. . .	
+				console.write-line 'El numero es '..numero..''.
+			end-for
+
+			//variables
+			number numero2 size 5.5 default 12345.57897.
+			number-array n3 size 5 contain number size 32 default zeros.
+			string frase size 6 default 'qwerty'.
+			string-array frases size 12 contain string size 6 default spaces.
+			
+			
+
+        end-try
+        begin-catch exception ex
+            console.write-line ex.message
+        end-catch
+    end-method
+end-class
+
+
+
+
+/*
+
+using System;
+
+namespace MyApp // Note: actual namespace depends on the project name.
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello World!");
+            string-array nu;
+        }
+    }
+}
+*/
