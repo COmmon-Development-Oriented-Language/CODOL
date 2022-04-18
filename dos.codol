@@ -45,7 +45,7 @@ begin-public-class program
                 //greater that or equals to ...
             end-if
 	    
-			for-each numero in range 0 to 12 begin
+            for-each numero in range 0 to 12 begin
 				//. . .	
 				console.write-line 'El numero es '..numero..''.
 			end-for
@@ -66,21 +66,3 @@ begin-public-class program
 end-class
 
 
-
-
-/*
-
-using System;
-
-namespace MyApp // Note: actual namespace depends on the project name.
-{
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-            string-array nu;
-        }
-    }
-}
-*/
