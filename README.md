@@ -1,5 +1,7 @@
 # CODOL
 
+# REPOSITORIO MOVIDO A GITLAB HTTPS://GITLAB.COM/CODOL
+
 ## Abril 2022
 - Idea inicial
 - Coloreado sintaxis mediante editor Nano en linux
